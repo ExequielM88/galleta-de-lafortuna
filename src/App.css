@@ -1,0 +1,137 @@
+
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 4rem;
+   
+}
+.Phrase {
+    width: 60%;
+    background-image: url("/pergamino/pergamino.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 40px black;
+    display: flex;flex-direction: column;
+    
+    
+    
+    
+    
+   
+}
+
+.Phrase1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+    
+    
+}
+
+.bxs-quote-alt-left {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+   
+    
+    
+    
+   
+}
+
+.bxs-quote-alt-right {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
+    
+    
+   
+ 
+}
+
+.Parrafo {
+   font-size: 30px;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+  
+   
+}
+
+.Autor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.Button {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 2rem ;
+    box-shadow: 0px 0px 40px black;
+    cursor: pointer;
+
+}
+
+
+@media (max-width:700px) {
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem
+}
+h2 {
+    font-size: 25px;
+}
+
+.Phrase {
+    width: 90%;
+}
+
+.Parrafo {
+    font-size: 20px;
+}
+
+}
+
+
