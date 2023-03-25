@@ -13,7 +13,7 @@ const button = ({setPhraseRandom,setimgRandom}) => {
     
     return (
        <div>
-           <button onClick={handleChnagePhrase} className = "Bgit utton">Probar mi suerte!!</button>
+           <button onClick={handleChnagePhrase} className ="Button">Probar mi suerte!!</button>
        </div>
     )
    
